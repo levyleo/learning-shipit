@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/demohi/learning-shipit.git"
+    "url": "git+https://github.com/levyleo/learning-shipit.git"
   },
-  "author": "mdemo",
+  "author": "levyleo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/demohi/learning-shipit/issues"
+    "url": "https://github.com/levyleo/learning-shipit/issues"
   },
-  "homepage": "https://github.com/demohi/learning-shipit#readme",
+  "homepage": "https://github.com/levyleo/learning-shipit#readme",
   "devDependencies": {
     "shipit-cnpm": "^0.1.0",
     "shipit-deploy": "^2.0.0",
