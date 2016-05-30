@@ -8,8 +8,8 @@ module.exports = function(shipit) {
   shipit.initConfig({
     default: {
       workspace: '/tmp/deploy/node-example',
-      deployTo: '/home/work/node-example',
-      repositoryUrl: 'https://github.com/demohi/node-example.git',
+      deployTo: '/home/levyleo/work/node-example',
+      repositoryUrl: 'https://github.com/levyleo/node-example.git',
       ignores: ['.git'],
       keepReleases: 2,
       deleteOnRollback: false,
@@ -18,8 +18,8 @@ module.exports = function(shipit) {
         flags: '--production'
       },
       pm: {
-        production: '/home/work/node-example/current/pm2/production.json',
-        development: '/home/work/node-example/current/pm2/development.json'
+        production: '/home/levyleo/work/node-example/current/pm2/production.json',
+        development: '/home/levyleo/work/node-example/current/pm2/development.json'
       }
     },
     development: {
